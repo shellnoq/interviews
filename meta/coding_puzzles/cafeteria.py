@@ -60,3 +60,7 @@ def getMaxAdditionalDinersCount(N: int, K: int, M: int, S: List[int]) -> int:
     additional_diners += (L + K) // (K + 1)
 
   return additional_diners
+
+# Example test cases
+assert getMaxAdditionalDinersCount(10, 1, 2, [2, 6]) == 3
+assert getMaxAdditionalDinersCount(15, 2, 3, [11, 6, 14]) == 1
